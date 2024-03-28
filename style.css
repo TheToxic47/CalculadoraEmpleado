@@ -1,0 +1,35 @@
+
+body{
+    background-image: url(img/4k.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #6699; 
+}
+
+.carta{
+    padding-top: 40px;
+}
+.card{
+    border-style: solid;
+    border-color: rgb(250, 250, 250);
+    box-shadow: 0 0 20px rgb(2, 111, 255);
+}
+
+.opacidad{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+ }
+
+.titulo{
+    padding-bottom:0px;
+    padding-top: 10px;
+}
+
+.boton{
+    margin-bottom: 10px;
+}
+
