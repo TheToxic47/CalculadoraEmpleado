@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(img/4k.jfif);
+    background-image: url(img/collage.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,12 +9,12 @@ body{
 }
 
 .carta{
-    padding-top: 40px;
+    padding-top: 100px;
 }
 .card{
     border-style: solid;
     border-color: rgb(250, 250, 250);
-    box-shadow: 0 0 20px rgb(2, 111, 255);
+    box-shadow: 0 0 20px rgb(255, 2, 99);
 }
 
 .opacidad{
@@ -25,11 +25,160 @@ body{
  }
 
 .titulo{
-    padding-bottom:0px;
-    padding-top: 10px;
+    padding-bottom:10px;
+    padding-top: 100px;
+    font-family: sigmar;
+    font-size: 100px;
+}
+.milagros{
+    font-family: sigmar;
+    padding-bottom: 100px;
 }
 
 .boton{
     margin-bottom: 10px;
 }
 
+
+
+/*animacion letras*/
+
+.letra1{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    animation: gotass 3s linear infinite;
+}
+.letra2{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    animation: gotass 3s linear infinite;
+    animation-delay: .4s;
+}
+.letra3{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    animation: gotass 3s linear infinite;
+}
+.letra4{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    animation: gotass 3s linear infinite;
+    animation-delay: .4s;
+}
+.letra5{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    animation: gotass 3s linear infinite;
+}
+.letra6{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    animation: gotass 3s linear infinite;
+    animation-delay: .6s;
+}
+.letra7{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra8{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: gotass 3s linear infinite;
+    animation-delay: .9s;
+}
+.letra9{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    animation: gotass 5s linear infinite;
+}
+.letra10{
+    
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    animation: gotass 3s linear infinite;
+    animation-delay: .4s;
+}
+
+.gotas{
+    font-size: 100px
+}
+/*fin letras*/
+
+
+
+
+/* animacion gotas*/
+@keyframes gotass{
+    100%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    0%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
